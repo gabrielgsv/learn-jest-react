@@ -27,7 +27,7 @@ export default () => {
         onChange={e => setNewTech(e.target.value)}
       />
 
-      <button onClick={() => handleAddTech()}>Adicionar</button>
+      <button type="submit">Adicionar</button>
     </form>
   );
 };
